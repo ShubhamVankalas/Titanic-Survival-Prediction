@@ -4,25 +4,28 @@ This project aims to predict the survival of passengers aboard the Titanic based
 
 ### Table of Contents
  - [About the Competition](#About-the-Competition)
- - How It Works
- - Getting Started
- - Setup Instructions
- - Project Structure
- - Results
- - Images
- - License
+ - [How It Works](#How-It-Works)
+ - [Getting Started](#Getting-Started)
+ - [Setup Instructions](#Setup-Instructions)
+ - [Project Structure](#Project-Structure)
+ - [Results](#Results)
+ - [Images](#Images)
+ - [License](#License)
 
-About the Competition
+### About the Competition
 
 This project is based on the Titanic: Machine Learning from Disaster competition on Kaggle. The goal of the competition is to predict whether a passenger survived or not, given a set of features. The dataset contains details about each passenger, such as age, class, and whether they were traveling alone or with family.
 Link: 
 
-How It Works
-Data Preprocessing: The raw data is cleaned and transformed into features like 'FamilySize', 'AgeGroup', and 'Title' to improve the model's predictive accuracy.
-Model Selection: Several machine learning models, including Logistic Regression and Random Forest, were used to predict survival. Hyperparameter tuning was performed to achieve optimal performance.
-Model Evaluation: The models were evaluated using accuracy and cross-validation techniques to ensure the best model is selected.
-Prediction: The trained models are used to predict the survival status of passengers in the test dataset. The final predictions are submitted to the competition.
-Getting Started
+### How It Works
+
+ - Data Preprocessing: The raw data is cleaned and transformed into features like 'FamilySize', 'AgeGroup', and 'Title' to improve the model's predictive accuracy.
+ - Model Selection: Several machine learning models, including Logistic Regression and Random Forest, were used to predict survival. Hyperparameter tuning was performed to achieve optimal performance.
+ - Model Evaluation: The models were evaluated using accuracy and cross-validation techniques to ensure the best model is selected.
+ - Prediction: The trained models are used to predict the survival status of passengers in the test dataset. The final predictions are submitted to the competition.
+
+### Getting Started
+
 To get started with the Titanic Survival Prediction project:
 
 Clone this repository:
