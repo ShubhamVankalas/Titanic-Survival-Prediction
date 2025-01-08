@@ -7,7 +7,6 @@ This project aims to predict the survival of passengers aboard the Titanic based
  - [How It Works](#How-It-Works)
  - [Getting Started](#Getting-Started)
  - [Setup Instructions](#Setup-Instructions)
- - [Project Structure](#Project-Structure)
  - [Results](#Results)
  - [Images](#Images)
 
@@ -60,27 +59,6 @@ The trained model is used to predict the survival of passengers in the test.csv 
 
 The predictions are formatted into a CSV file with columns PassengerId and Survived and saved for submission.
 
-##Project Structure
-The project is organized as follows:
-
-bash
-Copy code
-titanic-survival-prediction/
-│
-├── data/
-│   ├── train.csv               # Training data
-│   ├── test.csv                # Test data
-│
-├── notebooks/                   # Jupyter notebooks for model development
-│   ├── titanic_model.ipynb      # Titanic survival prediction notebook
-│
-├── src/                         # Source code for preprocessing and model training
-│   ├── preprocess.py            # Data preprocessing functions
-│   ├── train_model.py           # Model training functions
-│   ├── predict.py               # Predicting survival
-│
-├── requirements.txt             # List of dependencies
-├── README.md                    # Project description and setup instructions
 
 ## Results
 The best model achieved an accuracy of 82% on the test set after hyperparameter tuning. The Random Forest classifier was selected as the final model, with the following hyperparameters:
@@ -91,24 +69,10 @@ min_samples_split=5
 n_estimators=50
 
 ## Images
-For visual appeal and clarity, add images that demonstrate key steps or results:
 
- - Model Performance: Add graphs of model accuracy or cross-validation results.
- - Feature Engineering: Include diagrams or tables showing how features like FamilySize, Title, or AgeGroup were created.
- - Submission File: Show an example of the final submission format (PassengerId, Survived).
-Place these images in the images/ directory:
+![Train DataFrame](images/df.jpg)
+![Distribution Of Age](images/age.jpg)
+![Distribution Of Fare](images/fare.jpg)
+![Output Excel Sheet](images/output.jpg)
 
-bash
-Copy code
-titanic-survival-prediction/
-│
-├── images/
-│   ├── accuracy_plot.png        # Model performance plot
-│   ├── feature_engineering.png  # Feature engineering diagram
-│   ├── submission_example.png   # Example submission CSV
-You can reference the images in the README with Markdown:
-
-markdown
-Copy code
-![Accuracy Plot](images/accuracy_plot.png)
 
