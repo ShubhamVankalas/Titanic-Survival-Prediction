@@ -70,9 +70,16 @@ n_estimators=50
 
 ## Images
 
+### Train DataFrame
 ![Train DataFrame](images/df.jpg)
+
+### Distribution Of Age
 ![Distribution Of Age](images/age.jpg)
+
+### Distribution Of Fare
 ![Distribution Of Fare](images/fare.jpg)
+
+### Output Excel Sheet
 ![Output Excel Sheet](images/output.jpg)
 
 
