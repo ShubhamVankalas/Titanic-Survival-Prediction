@@ -30,20 +30,16 @@ To get started with the Titanic Survival Prediction project:
 Clone this repository:
 
 ```bash
-git clone https://github.com/yourusername/titanic-survival-prediction.git
+git clone https://github.com/ShubhamVankalas/Titanic-Survival-Prediction
 cd titanic-survival-prediction
 ```
 
-Install the required dependencies:
-
-bash
-Copy code
-pip install -r requirements.txt
+Install the required dependencies
 
 Ensure that you have the following datasets (download them from Kaggle):
 
-train.csv: The training data
-test.csv: The test data for prediction
+ - train.csv: The training data
+ - test.csv: The test data for prediction
 
 ## Setup Instructions
 To run the project, follow these steps:
