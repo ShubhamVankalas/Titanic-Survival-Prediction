@@ -13,7 +13,8 @@ This project aims to predict the survival of passengers aboard the Titanic based
 ## About the Competition
 
 This project is based on the Titanic: Machine Learning from Disaster competition on Kaggle. The goal of the competition is to predict whether a passenger survived or not, given a set of features. The dataset contains details about each passenger, such as age, class, and whether they were traveling alone or with family.
-Link: 
+
+Link: [https://www.kaggle.com/competitions/titanic](https://www.kaggle.com/competitions/titanic)
 
 ## How It Works
 
